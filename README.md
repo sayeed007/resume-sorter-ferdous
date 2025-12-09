@@ -35,6 +35,7 @@ The system follows this workflow to process and retrieve resumes:
 ![Resume Sorter Workflow](resume_sorter_flowchart.drawio.png)
 
 **Workflow Steps:**
+
 1. **PDF Conversion**: Resume PDFs are converted to markdown format using the marker-pdf library
 2. **Vector Embeddings**: Converted markdown resumes are processed to generate vector embeddings
 3. **Database Storage**: Resumes and their embeddings are stored in a LanceDB vector database
